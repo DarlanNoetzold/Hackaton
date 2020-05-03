@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>cadastro</title>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="_css/css_cadastro.css">
+ </head>
+<!--===============================================================================================-->
+<body>
+<div id="areaPrincipal">
+<div id="cabecalho">
+</div>
+<!--===============================================================================================-->    
+<!--===============================================================================================-->
+<form action="conexao.php" method="get"> <!-- Chama a função-->
+<div id="corpo">
+    <fieldset id = "b1">
+	   <legend>Cadastro</legend>
+	   <p>Nome: <input type="text" name="nome" placeholder="Ex: maria" required="required" max = "20" min = "5"/></p>
+        <p>Sobrenome: <input type="text" name="nome" placeholder="Ex: silva" required="required" max = "20" min = "5"/></p>
+        <p>CPF: <input type="text" name="cpf_cliente" placeholder="Ex: 00000000000" required="required" max = "11" min = "11"/></p>
+        <p>Data de Nascimento: <input type="text" name="data_nascimento" placeholder="Ex: 20/08/1999" required="required" max = "8" min = "1"/></p>
+        <p>E-mail: <input type="text" name="email" placeholder="Ex: e-mail" required="required" max = "30" min = "1"/></p>
+        <p>Senha: <input type = "password" name = "senha" placeholder = "8 Digitos" required = "required" max = "8" min = "1" /></p>
+    </fieldset>
+<p class="enviar">
+ <input type="submit" name="enviar" value="Enviar">
+ </p>
+    </div>
+</form>
+<!--===============================================================================================-->    
+<!--===============================================================================================-->
+<div id="rodape">
+</div>
+    </div>
+     </body>
+ </html>
